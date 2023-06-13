@@ -1,0 +1,55 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  margin-top: 130px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  margin-top: 10px;
+}
+
+.container button {
+  padding: 7px 12px;
+}
+
+#inputBox {
+  height: 28px;
+  width: 200px; 
+  margin-right: 5px;
+  box-sizing: border-box; 
+}
+
+.toDoDiv {
+  margin-top: 10px;
+}
+
+.task {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.task span {
+  flex-grow: 1;
+}
+
+.task button {
+  margin-left: 10px;
+}
+
+.doneButton:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: red;
+  cursor: pointer;
+}
